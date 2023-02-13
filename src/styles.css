@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.round-btn{
+    @apply w-10 p-2 cursor-pointer mr-3 mb-1 rounded-full hover:bg-gray-200 transition duration-200 ease-out;
+}
+
+.btn-2{
+    @apply mx-2 hover:bg-blue-50 p-2 rounded-md;
+}
